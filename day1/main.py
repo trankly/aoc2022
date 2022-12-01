@@ -19,5 +19,5 @@ def part1():
 
 if __name__ == "__main__":
     print("Part 1: ", part1()[0])
-    print("Part 2: ", part1()[0] + part1()[1] + part1()[2])
+    print("Part 2: ", sum(part1()[0:3]))
 
